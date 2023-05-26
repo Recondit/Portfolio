@@ -1,0 +1,306 @@
+*{
+  box-sizing: border-box
+}
+
+.hint{
+  color: #E26D5C;
+}
+/*! Topbar Css */
+
+/* .stylef {
+  color:#E26D5C;
+  font-size: 30px!important;
+  font-weight: bold!important;
+  cursor: pointer;
+
+}
+@keyframes shine {
+  0% {
+    background-position: 0;
+  }
+  50% {
+    background-position: 300px;
+  }
+  100% {
+    background-position: 600px;
+  }
+}
+.stylef{
+    background: linear-gradient(to right, #E26D5C 0, hsl(0, 0%, 100%) 10%, #E26D5C 20%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: shine 3s infinite linear;
+ 
+}  */
+.TopNav{
+  background-color: #472D30;
+  position: sticky;
+  top: 0
+
+}
+.topbar{
+  background-color: #472D30;
+  color : black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+  padding: 0rem 1rem;
+}
+
+.topbar ul{
+  padding:0;
+  margin:0;
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+}
+
+.topbar-title{
+  font-size: 2.5rem;
+  color:#E26D5C;
+}
+
+
+
+/*! Navbar Css */
+
+.navbar ul{
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+  padding-right: 50px;
+}
+
+.navbar{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  padding: 0rem 1rem;
+}
+
+.content {
+  text-align: center;
+  background-color: #472D30;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;  
+}
+
+h1{
+  color:#E26D5C;
+}
+
+p{
+  color:#E26D5C;
+  font-size:20px;
+}
+
+
+
+/*! Icons */
+.resumeicon{
+  color:#FFE1A8;
+  font-size:15px;
+}
+.linkedinicon{
+  color:#FFE1A8;
+  font-size:15px;
+}
+
+.emailicon{
+  color:#FFE1A8;
+  font-size:15px;
+}
+
+.githubicon{
+  color:#FFE1A8;
+  font-size:15px;
+}
+
+.cardcontainer{
+  height:120px;
+  width:175px;
+  background-color:#FFE1A8;
+  margin-top:10px;
+  margin-left:10px;
+  margin-right:10px;
+  margin-bottom:10px;
+  padding-top: 100px;
+  border-radius : 15px;
+}
+
+
+
+.flex-container {
+  display: flex;
+  flex-direction:column;
+}
+
+.flex-child {
+  border: 2px;
+}  
+
+.game{
+  width:300px;
+}
+
+.test{
+  text-decoration:none;
+}
+
+body {background-color: #472D30;}
+
+/* Box */
+.link-card {
+  list-style: none;
+  display: flex;
+  border-radius: 0.5rem;
+  transition: 0.3s ease-in-out;
+
+  /* background-image:url('./assets/plan-or-to-do-list-concept-with-hand-drawn-text-checklist-task-list-illustration-in-flat-cartoon-style-on-white-background-vector.jpeg'); */
+  background-size: 100%;
+  background-position: center;
+  
+  width: 50vw;
+  height: 8rem;
+  
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -2px rgba(0, 0, 0, 0.5);
+  /* border: 1px green solid; */
+}
+.link-card:hover {
+  transition: 0.3s ease-in-out;
+
+  background-size: 200%;
+  background-position: center;
+
+  width: 55vw;
+
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.4), 0 2px 4px -2px rgba(0, 0, 0, 1);
+}
+
+.textbox {
+  text-decoration:none;
+
+  /* border: 1px green solid; */
+  height: 100%;
+  transition: 0.3s ease-in-out;
+
+  position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+}
+
+.textboxsub {
+  /* border: 1px green solid; */
+  width: 180%;
+}
+
+/* The Colour Fade Box Ontop */
+.link-card > a {
+  transition: 0.3s ease-in-out;
+  width: 100%;
+  line-height: 1.4;
+  padding: 1.3rem 1.3rem;
+  border-radius: 0.5rem;
+  opacity: 1;
+  background-color: rgba(226, 109, 92, 0.716);
+
+  /* border: 1px white solid; */
+  /* border: 1px green solid; */
+}
+
+.link-card:hover > a {
+  transition: 0.3s ease-in-out;
+  background-color: rgba(226, 109, 92, 0.916);
+
+  /* border: 1px white solid; */
+  /* border: 1px green solid; */
+}
+
+.test > .textbox-desc{
+  transition: 0.3s ease-in-out;
+  opacity: 0;
+  font-size: 0%;
+  /* background-color: black; */
+}
+
+.textbody-name{
+  color:black;
+}
+
+.test > .textbox-name{
+  height: 100%;
+  text-decoration:none;
+  
+  position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  transition: 0.3s ease-in-out;
+  opacity: 1;
+  font-size: 100%;
+}
+.test:hover > .textbox-name{
+  height: 25%;
+  transition: 0.3s ease-in-out;
+  opacity: 0;
+  font-size: 0%;
+
+}
+.test:hover > .textbox-desc{
+  transition: 0.3s ease-in-out;
+  opacity: 1;
+  font-size: 100%;
+  
+}
+
+.textbody {
+  /* border: 1px green solid; */
+  width: 45vw
+}
+
+/* Text */
+h2 {
+  margin: 0;
+  font-size: 1.25rem;
+  color: var(--accentlight);
+  text-shadow: 0px 0px 5px black, 0px 0px 5px black, 0px 0px 2px var(--accent);
+}
+h4 {
+  margin-top: 0.5rem;
+  margin-bottom: 0;
+  color: #fff;
+}
+
+.flex-child {
+  padding-bottom: 2vh;
+}
+
+
+/* Tooltips */
+.tooltip [class$="inner"] {
+  background-color: black;
+  border: 1px solid black;
+}
+
+.tooltip [class$="arrow"] {
+  border-top: 5px solid black !important;
+}
+
+.MuiButton-root {
+  border-radius: 70px;
+} 
+
+.topbar-title {
+  padding-bottom: 10px;
+}
+
+.name {
+  font-size: 37px;
+  padding-left: 0.3rem;;
+}
