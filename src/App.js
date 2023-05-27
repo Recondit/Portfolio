@@ -38,7 +38,7 @@ const theme = createTheme({
 
 
 
-const FadeUp = batch(Fade(), Move(0 , 1189 , null , -35), Sticky());
+const FadeUp = batch(Fade(), Move(0 , 667 , null , -135), Sticky());
 function App() {
   return (
 
