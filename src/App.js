@@ -51,8 +51,8 @@ function App() {
 <ScrollContainer>
   <ScrollPage page={0}>
     <Animator animation={FadeUp}>
-          <h1>Hi how are you? 👋</h1>
-          <a className = "hint">(Pss.. Keep Scrolling)</a>
+          <h1>Hi, how are you? 👋</h1>
+          <a className = "hint">(Psstt.. Keep Scrolling)</a>
     </Animator>
   </ScrollPage>
   
@@ -60,7 +60,7 @@ function App() {
     <Animator animation={FadeUp}>
     
           <h1>I'm <span class = "name">Divij</span></h1>
-          <h1> A 3<sup>rd</sup> year <span>Computer Science</span> student at <span class = "name">Mcmaster University</span></h1>
+          <h1> A 3<sup>rd</sup> year <span>Computer Science</span> student at <span class = "name">McMaster University</span></h1>
 
     </Animator>
   </ScrollPage>
@@ -69,7 +69,7 @@ function App() {
     <Animator animation={FadeUp}>
 
           <h1>I'm an enthusiast game developer and programmer 
-          <br/> I love to swim and cook in my free time :)</h1>
+          <br/>I love to swim and cook in my free time :)</h1>
 
     </Animator>
   </ScrollPage>
@@ -91,7 +91,7 @@ function App() {
       </div>
 
       <div class="flex-child">
-        <Card name = "Brevity" image = {brevity_img} body = "A useful college tool that takes in a lecture video and summarises key points" href = "https://github.com/Recondit/Brevity"/>
+        <Card name = "Brevity" image = {brevity_img} body = "A useful college tool that summarises a lecture video into its key points" href = "https://github.com/Recondit/Brevity"/>
       </div>
 
       <div class="flex-child">
