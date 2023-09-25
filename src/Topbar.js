@@ -8,6 +8,7 @@ import Pdf from './resume.pdf';
 // import { Tooltip } from 'react-tooltip';
 import { Tooltip , IconButton } from '@mui/material'
 import './App.css';
+import ParticlesBackground from './components/ParticlesBackground';
 
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 
@@ -29,11 +30,10 @@ const theme = createTheme({
 
 const Topbar = () => {
     return (
-    
     <nav className = "topbar">
         <h1 className = "topbar-title">My Contacts</h1>
         <ul className = "topbarul">
-          <li><Button target="_blank" href={Pdf} sx= {{ "&:hover": { color: "#472D30" , backgroundColor: "#FFE1A8" , borderColor: "#FFE1A8"} , borderColor: "#FFE1A8" ,color : "#FFE1A8",backgroundColor:  "#472D30", borderRadius: '76px' , fontSize: '15px' , paddingTop: '10px'}} size= "large" variant="outlined">Resume</Button></li>
+          <li><Button target="_blank" href={Pdf} sx= {{ "&:hover": { color: "#472D30" , backgroundColor: "#FFE1A8" , borderColor: "#FFE1A8"} , borderColor: "#FFE1A8" ,color : "#FFE1A8",backgroundColor:  "#472D30",  fontSize: '15px' , paddingTop: '10px' , fontFamily: 'dogicapixel'}} size= "large" variant="outlined">Resume</Button></li>
            {/* StackOverflow*/}
            <li className = "topbarli">
             

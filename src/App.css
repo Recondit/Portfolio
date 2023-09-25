@@ -4,6 +4,7 @@
 
 .hint{
   color: #E26D5C;
+  font-family: dogicapixel;
 }
 /*! Topbar Css */
 
@@ -92,6 +93,7 @@
 
 h1{
   color:#E26D5C;
+  font-family: dogicapixel;
 }
 
 p{
@@ -231,6 +233,11 @@ body {background-color: #472D30;}
 
 .textbody-name{
   color:black;
+  font-size: 1.5rem;
+  font-family: dogicapixel;
+}
+.textbody-desc{
+  font-family: dogicapixel;
 }
 
 .test > .textbox-name{
@@ -297,10 +304,28 @@ h4 {
 } 
 
 .topbar-title {
+  padding-left: 10px;
   padding-bottom: 10px;
+  font-family: dogica;
 }
 
+.dev{
+  line-height: 2.5rem;
+}
+  
 .name {
-  font-size: 37px;
-  padding-left: 0.3rem;;
+  font-size: 50px;
+  padding-left: 0.3rem;
+  line-height: 6rem;
+
+}
+
+@font-face{
+  font-family: dogica;
+  src: url(./assets/dogica.ttf);
+}
+
+@font-face {
+  font-family: dogicapixel;
+  src: url(./assets/dogicapixel.ttf);
 }

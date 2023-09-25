@@ -8,6 +8,8 @@ import Pdf from './resume.pdf';
 // import { Tooltip } from 'react-tooltip';
 import { Tooltip , IconButton } from '@mui/material'
 import './App.css';
+import ParticlesBackground from './components/ParticlesBackground';
+
 
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 
@@ -20,6 +22,8 @@ import boid_img from './assets/original.png'
 import brevity_img from './assets/brevity5.png'
 
 import rush_img from './assets/Screenshot 2023-05-17 at 1.46.51 PM.png'
+
+import solitude_img from './assets/Site.PNG'
 
 const theme = createTheme({
     status: {
@@ -41,13 +45,13 @@ const theme = createTheme({
 const FadeUp = batch(Fade(), Move(0 , 667 , null , -135), Sticky());
 function App() {
   return (
-
 <div className = "App">
+
 <div className = "TopNav">
 <Topbar/>
 </div>
 <div className = "content">
-
+<ParticlesBackground/>
 <ScrollContainer>
   <ScrollPage page={0}>
     <Animator animation={FadeUp}>
@@ -67,9 +71,11 @@ function App() {
 
   <ScrollPage page={2}>
     <Animator animation={FadeUp}>
-
-          <h1>I'm an enthusiast game developer and programmer 
-          <br/>I love to swim and cook in my free time :)</h1>
+          <a class = "dev">
+          <h1>I'm an enthusiast game developer and programmer </h1></a>
+          <a class = "swim">
+          <h1>I love to swim and cook in my free time :)</h1>
+          </a>
 
     </Animator>
   </ScrollPage>
@@ -95,8 +101,7 @@ function App() {
       </div>
 
       <div class="flex-child">
-        <Card name = "Rush Hour" image = {rush_img} body = "A unity game under development around the hectic life of a line cook" href = 
-        "https://github.com/Recondit/B"/>
+        <Card name = "Solitude" image = {solitude_img} body = "A unity game under development revolving around the idea of artificial loneliness" href = "https://github.com/Recondit/B"/>
       </div>
       </center>
       
