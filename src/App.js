@@ -83,7 +83,7 @@ function App() {
   </ScrollPage>
   <ScrollPage page={3}>
     <Animator animation={FadeUp}>
-          <h1>Here are some of my projects</h1>
+          <a class = "projects"><h1>Here are some of my projects</h1></a>
     </Animator>
   </ScrollPage>
   <ScrollPage page={4}>
