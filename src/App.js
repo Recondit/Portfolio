@@ -44,7 +44,7 @@ const theme = createTheme({
 
 
 
-const FadeUp = batch(Fade(), Move(0 , 667 , null , -135), Sticky());
+const FadeUp = batch(Fade(), Move(0 , 667 , null , -635), Sticky());
 function App() {
   return (
 <div className = "App">
@@ -53,7 +53,6 @@ function App() {
 <Topbar/>
 </div>
 <div className = "content">
-<ParticlesBackground/>
 <ScrollContainer>
   <ScrollPage page={0}>
     <Animator animation={FadeUp}>
@@ -66,7 +65,7 @@ function App() {
     <Animator animation={FadeUp}>
           <div class = "Pg1">
           <h1>I'm <span class = "name">Divij</span></h1>
-          <h1 class = "uni"> A 3<sup>rd</sup> year <span>Computer Science</span> student at McMaster University</h1>
+          <h1 class = "uni"> A 3<sup>rd</sup> year Computer Science student at McMaster University</h1>
           </div>
 
     </Animator>

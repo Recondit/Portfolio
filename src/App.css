@@ -85,7 +85,7 @@
 .content {
   text-align: center;
   background-color: #472D30;
-  min-height: 100vh;
+  max-height: 485vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -319,6 +319,10 @@ h4 {
 .dev{
   line-height: 2.5rem;
 }
+
+.swim{
+  line-height: 2.5rem;
+}
   
 .name {
   font-size: 5vh;
@@ -327,7 +331,7 @@ h4 {
 }
 
 .uni{
-  line-height: 4vh;
+  line-height: 2.5rem;
 }
 
 @font-face{
