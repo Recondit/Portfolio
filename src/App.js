@@ -25,6 +25,8 @@ import rush_img from './assets/Screenshot 2023-05-17 at 1.46.51 PM.png'
 
 import solitude_img from './assets/Site.PNG'
 
+import pythia_img from './assets/Screenshot 2023-10-09 at 2.12.32 PM.png'
+
 const theme = createTheme({
     status: {
       danger: '#e53e3e',
@@ -62,9 +64,10 @@ function App() {
   
   <ScrollPage page={1}>
     <Animator animation={FadeUp}>
-    
+          <div class = "Pg1">
           <h1>I'm <span class = "name">Divij</span></h1>
-          <h1> A 3<sup>rd</sup> year <span>Computer Science</span> student at <span class = "name">McMaster University</span></h1>
+          <h1 class = "uni"> A 3<sup>rd</sup> year <span>Computer Science</span> student at McMaster University</h1>
+          </div>
 
     </Animator>
   </ScrollPage>
@@ -102,6 +105,10 @@ function App() {
 
       <div class="flex-child">
         <Card name = "Solitude" image = {solitude_img} body = "A unity game under development revolving around the idea of artificial loneliness" href = "https://github.com/Recondit/B"/>
+      </div>
+
+      <div class="flex-child">
+        <Card name = "Project Pythia" image = {pythia_img} body = "A machine learning model to predict solar activity and Kp index using data from the Dscovr satellite" href = "https://recondit.github.io/SpaceApps/"/>
       </div>
       </center>
       

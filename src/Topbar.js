@@ -31,26 +31,15 @@ const theme = createTheme({
 const Topbar = () => {
     return (
     <nav className = "topbar">
-        <h1 className = "topbar-title">My Contacts</h1>
+        <h1 className = "topbar-title">Socials</h1>
         <ul className = "topbarul">
-          <li><Button target="_blank" href={Pdf} sx= {{ "&:hover": { color: "#472D30" , backgroundColor: "#FFE1A8" , borderColor: "#FFE1A8"} , borderColor: "#FFE1A8" ,color : "#FFE1A8",backgroundColor:  "#472D30",  fontSize: '15px' , paddingTop: '10px' , fontFamily: 'dogicapixel'}} size= "large" variant="outlined">Resume</Button></li>
+          <li><Button target="_blank" href={Pdf} sx= {{ "&:hover": { color: "#472D30" , backgroundColor: "#FFE1A8" , borderColor: "#FFE1A8"} , borderColor: "#FFE1A8" ,color : "#FFE1A8",backgroundColor:  "#472D30",  fontSize: '15px' , paddingTop: '10px' , fontFamily: 'dogicapixel' , zIndex: '10000'}} size= "large" variant="outlined">Resume</Button></li>
            {/* StackOverflow*/}
            <li className = "topbarli">
             
             <ThemeProvider theme={theme}>
-            <Tooltip title = "Stack Overflow" componentsProps={{
-    tooltip: {
-      sx: {
-        bgcolor: "#FFE1A8",
-        color: "#472D30",
-        fontSize: "14px",
-        '& .MuiTooltip-arrow': {
-          color: "#FFE1A8",
-        },
-      },
-    },
-  }} arrow>
-            <IconButton target="_blank" sx={{ "&:hover": { color: "#472D30" , backgroundColor: "#FFE1A8"}}} size = "small" color="primary" href="https://stackoverflow.com/users/13527575/recondit" ><FaStackOverflow size="2.2em"/></IconButton></Tooltip>
+            
+            <IconButton target="_blank" sx={{ "&:hover": { color: "#472D30" , backgroundColor: "#FFE1A8"}}} size = "small" color="primary" href="https://stackoverflow.com/users/13527575/recondit" ><FaStackOverflow size="2.2em"/></IconButton>
             </ThemeProvider>
       
             </li>
@@ -68,56 +57,33 @@ const Topbar = () => {
             <li className = "topbarli">
             
             <ThemeProvider theme={theme}>
-            <Tooltip title = "LinkedIn" componentsProps={{
+            {/* <Tooltip title = "LinkedIn" componentsProps={{
     tooltip: {
       sx: {
         bgcolor: "#FFE1A8",
         color: "#472D30",
         fontSize: "14px",
-        '& .MuiTooltip-arrow': {
-          color: "#FFE1A8",
-        },
+        
       },
     },
-  }} arrow>
-            <IconButton target="_blank" sx={{ "&:hover": { color: "#472D30" , backgroundColor: "#FFE1A8"}}} size = "small" color="primary" href="https://www.linkedin.com/in/divij-dhiraaj-3ba357188/" ><FaLinkedin size="2.2em"/></IconButton></Tooltip>
+  }} arrow> */}
+            <IconButton target="_blank" sx={{ "&:hover": { color: "#472D30" , backgroundColor: "#FFE1A8"}}} size = "small" color="primary" href="https://www.linkedin.com/in/divij-dhiraaj-3ba357188/" ><FaLinkedin size="2.2em"/></IconButton>
+            {/* </Tooltip> */}
             </ThemeProvider>
       
             </li>
             {/* Github */}
             <li>
             <ThemeProvider theme={theme}>
-            <Tooltip title = "Github" componentsProps={{
-    tooltip: {
-      sx: {
-        bgcolor: "#FFE1A8",
-        color: "#472D30",
-        fontSize: "14px",
-        '& .MuiTooltip-arrow': {
-          color: "#FFE1A8",
-        },
-      },
-    },
-  }} arrow>
-            <IconButton target="_blank"sx={{ "&:hover": { color: "#472D30" , backgroundColor: "#FFE1A8"}}} size = "small" color="primary" href="https://github.com/Recondit"><FaGithub size="2.2em"/></IconButton></Tooltip>
+           
+            <IconButton target="_blank"sx={{ "&:hover": { color: "#472D30" , backgroundColor: "#FFE1A8"}}} size = "small" color="primary" href="https://github.com/Recondit"><FaGithub size="2.2em"/></IconButton>
             </ThemeProvider>
             </li>
             {/* Gmail */}
             <li>
             <ThemeProvider theme={theme}>
-            <Tooltip title = "Gmail" componentsProps={{
-    tooltip: {
-      sx: {
-        bgcolor: "#FFE1A8",
-        color: "#472D30",
-        fontSize: "14px",
-        '& .MuiTooltip-arrow': {
-          color: "#FFE1A8",
-        },
-      },
-    },
-  }} arrow>
-            <IconButton target="_blank"sx={{ "&:hover": { color: "#472D30" , backgroundColor: "#FFE1A8"}}} size = "small" color="primary" className = "emailicon"href="mailto:divijdhiraaj@gmail.com,dhiraajd@mcmaster.ca"><FaEnvelope size="2.2em"/></IconButton></Tooltip>
+            
+            <IconButton target="_blank"sx={{ "&:hover": { color: "#472D30" , backgroundColor: "#FFE1A8"}}} size = "small" color="primary" className = "emailicon"href="mailto:divijdhiraaj@gmail.com,dhiraajd@mcmaster.ca"><FaEnvelope size="2.2em"/></IconButton>
             </ThemeProvider>
             </li>
             {/* Resume*/}

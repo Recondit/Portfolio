@@ -36,6 +36,7 @@
 .TopNav{
   background-color: #472D30;
   position: sticky;
+  z-index:10000;
   top: 0
 
 }
@@ -156,6 +157,7 @@ p{
 
 body {background-color: #472D30;}
 
+
 /* Box */
 .link-card {
   list-style: none;
@@ -167,8 +169,8 @@ body {background-color: #472D30;}
   background-size: 100%;
   background-position: center;
   
-  width: 50vw;
-  height: 11vh;
+  width: 66rem;
+  height: 8rem;
   
   box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -2px rgba(0, 0, 0, 0.5);
   /* border: 1px green solid; */
@@ -179,7 +181,8 @@ body {background-color: #472D30;}
   background-size: 200%;
   background-position: center;
 
-  width: 55vw;
+  width: 77rem;
+  height: 9rem;
 
   box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.4), 0 2px 4px -2px rgba(0, 0, 0, 1);
 }
@@ -197,10 +200,7 @@ body {background-color: #472D30;}
       align-items: center;
 }
 
-.textboxsub {
-  /* border: 1px green solid; */
-  width: 180%;
-}
+
 
 /* The Colour Fade Box Ontop */
 .link-card > a {
@@ -236,6 +236,13 @@ body {background-color: #472D30;}
   font-size: 1.5rem;
   font-family: dogicapixel;
 }
+
+@media (max-height:767px){
+  .textbody-desc{
+    font-family: dogicapixel;
+    font-size: 2vh;
+  }
+}
 .textbody-desc{
   font-family: dogicapixel;
 }
@@ -268,7 +275,7 @@ body {background-color: #472D30;}
 
 .textbody {
   /* border: 1px green solid; */
-  width: 45vw
+  width: 70rem;
 }
 
 /* Text */
@@ -314,10 +321,13 @@ h4 {
 }
   
 .name {
-  font-size: 50px;
+  font-size: 5vh;
   padding-left: 0.3rem;
-  line-height: 6rem;
 
+}
+
+.uni{
+  line-height: 4vh;
 }
 
 @font-face{
