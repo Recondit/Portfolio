@@ -1,10 +1,11 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.d27a831e.css",
-    "main.js": "/Portfolio/static/js/main.e8d668bd.js",
+    "main.css": "/Portfolio/static/css/main.67c5718f.css",
+    "main.js": "/Portfolio/static/js/main.7a5a15f8.js",
     "static/js/787.1ed0c42c.chunk.js": "/Portfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/Screenshot 2023-10-09 at 2.12.32 PM.png": "/Portfolio/static/media/Screenshot 2023-10-09 at 2.12.32 PM.0355082205e9ac706f40.png",
     "static/media/plan-or-to-do-list-concept-with-hand-drawn-text-checklist-task-list-illustration-in-flat-cartoon-style-on-white-background-vector.jpeg": "/Portfolio/static/media/plan-or-to-do-list-concept-with-hand-drawn-text-checklist-task-list-illustration-in-flat-cartoon-style-on-white-background-vector.2c67fd8129746e42fe18.jpeg",
-    "static/media/resume.pdf": "/Portfolio/static/media/resume.e1da57c40ba4eb441342.pdf",
+    "static/media/resume.pdf": "/Portfolio/static/media/resume.c37f0716ac98a8bbe10f.pdf",
     "static/media/original.png": "/Portfolio/static/media/original.2818ea8ca4c08c71b42f.png",
     "static/media/dogica.ttf": "/Portfolio/static/media/dogica.214cd23097c4c02eb9bd.ttf",
     "static/media/dogicapixel.ttf": "/Portfolio/static/media/dogicapixel.6d7dac533280cad5fa55.ttf",
@@ -12,12 +13,12 @@
     "static/media/brevity5.png": "/Portfolio/static/media/brevity5.620477f75ebc4086b407.png",
     "static/media/Site.PNG": "/Portfolio/static/media/Site.bfaf8b23ba6df87a7073.PNG",
     "index.html": "/Portfolio/index.html",
-    "main.d27a831e.css.map": "/Portfolio/static/css/main.d27a831e.css.map",
-    "main.e8d668bd.js.map": "/Portfolio/static/js/main.e8d668bd.js.map",
+    "main.67c5718f.css.map": "/Portfolio/static/css/main.67c5718f.css.map",
+    "main.7a5a15f8.js.map": "/Portfolio/static/js/main.7a5a15f8.js.map",
     "787.1ed0c42c.chunk.js.map": "/Portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d27a831e.css",
-    "static/js/main.e8d668bd.js"
+    "static/css/main.67c5718f.css",
+    "static/js/main.7a5a15f8.js"
   ]
 }
