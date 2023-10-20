@@ -1,4 +1,4 @@
-import { Animator, ScrollContainer, ScrollPage, batch, Fade, Move, Sticky } from 'react-scroll-motion';
+import { Animator, ScrollContainer, ScrollPage, batch, Fade, Move, Sticky, MoveOut } from 'react-scroll-motion';
 import './App.css';
 import Card from './Card';
 import Navbar from './Navbar';
@@ -44,7 +44,7 @@ const theme = createTheme({
 
 
 
-const FadeUp = batch(Fade(), Move(0 , 667 , null , -635), Sticky());
+const FadeUp = batch(Fade(), Move(0 , 1670 , null , -135), Sticky());
 function App() {
   return (
 <div className = "App">
@@ -56,7 +56,7 @@ function App() {
 <ScrollContainer>
   <ScrollPage page={0}>
     <Animator animation={FadeUp}>
-          <h1>Hi, how are you? 👋</h1>
+          <h1>Hi, how are you? <a className = "emoji">👋</a></h1>
           <a className = "hint">(Psstt.. Keep Scrolling)</a>
     </Animator>
   </ScrollPage>

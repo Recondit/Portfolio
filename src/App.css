@@ -3,7 +3,7 @@
 }
 
 .hint{
-  color: #E26D5C;
+  color: #292418;
   font-family: dogicapixel;
 }
 /*! Topbar Css */
@@ -34,14 +34,14 @@
  
 }  */
 .TopNav{
-  background-color: #472D30;
+  background-color: #e6ceac;
   position: sticky;
   z-index:10000;
   top: 0
 
 }
 .topbar{
-  background-color: #472D30;
+  background-color: #e6ceac;
   color : black;
   display: flex;
   justify-content: space-between;
@@ -59,8 +59,14 @@
 }
 
 .topbar-title{
+  font-family: dogicapixel;
   font-size: 2.5rem;
-  color:#E26D5C;
+  color:#292418;
+}
+
+.emoji{
+  color: transparent;  
+  text-shadow: 0 0 0 #292418;
 }
 
 
@@ -84,8 +90,8 @@
 
 .content {
   text-align: center;
-  background-color: #472D30;
-  max-height: 485vh;
+  background-color: #e6ceac;
+  /* max-height: 485vh; */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -93,12 +99,14 @@
 }
 
 h1{
-  color:#E26D5C;
+  color:#292418;
   font-family: dogicapixel;
+  font-size: 32px;
+
 }
 
 p{
-  color:#E26D5C;
+  color:#292418;
   font-size:20px;
 }
 
@@ -155,7 +163,7 @@ p{
   text-decoration:none;
 }
 
-body {background-color: #472D30;}
+body {background-color: #e6ceac;}
 
 
 /* Box */
@@ -172,7 +180,7 @@ body {background-color: #472D30;}
   width: 66rem;
   height: 8rem;
   
-  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -2px rgba(0, 0, 0, 0.5);
+  /* box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -2px rgba(0, 0, 0, 0.5); */
   /* border: 1px green solid; */
 }
 .link-card:hover {
@@ -210,7 +218,7 @@ body {background-color: #472D30;}
   padding: 1.3rem 1.3rem;
   border-radius: 0.5rem;
   opacity: 1;
-  background-color: rgba(226, 109, 92, 0.716);
+  background-color: rgba(205, 186, 148, 0.716);
 
   /* border: 1px white solid; */
   /* border: 1px green solid; */
@@ -218,7 +226,7 @@ body {background-color: #472D30;}
 
 .link-card:hover > a {
   transition: 0.2s ease-in-out;
-  background-color: rgba(226, 109, 92, 0.916);
+  background-color: rgba(205, 186, 148, 0.916);
 
   /* border: 1px white solid; */
   /* border: 1px green solid; */
@@ -228,6 +236,7 @@ body {background-color: #472D30;}
   transition: 0.2s ease-in-out;
   opacity: 0;
   font-size: 0%;
+
   /* background-color: black; */
 }
 
@@ -245,6 +254,7 @@ body {background-color: #472D30;}
 }
 .textbody-desc{
   font-family: dogicapixel;
+  /* color: #292418; */
 }
 
 .test > .textbox-name{
@@ -270,6 +280,7 @@ body {background-color: #472D30;}
   transition: 0.2s ease-in-out;
   opacity: 1;
   font-size: 100%;
+  font-size: 1.1rem;
   
 }
 
