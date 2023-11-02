@@ -6,6 +6,14 @@
   color: #292418;
   font-family: dogicapixel;
 }
+
+#cursor-outer{
+  z-index: 10000000;
+}
+
+#cursor-inner{
+  z-index: 10000000;
+}
 /*! Topbar Css */
 
 /* .stylef {
@@ -149,6 +157,7 @@ p{
 .flex-container {
   display: flex;
   flex-direction:column;
+  padding-top: 6rem;
 }
 
 .flex-child {
@@ -183,6 +192,8 @@ body {background-color: #e6ceac;}
   /* box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -2px rgba(0, 0, 0, 0.5); */
   /* border: 1px green solid; */
 }
+
+
 .link-card:hover {
   transition: 0.2s ease-in-out;
 
