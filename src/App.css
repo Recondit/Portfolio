@@ -157,7 +157,7 @@ p{
 .flex-container {
   display: flex;
   flex-direction:column;
-  padding-top: 6rem;
+  padding-top: 6 rem;
 }
 
 .flex-child {
@@ -173,6 +173,8 @@ p{
 }
 
 body {background-color: #e6ceac;}
+
+
 
 
 /* Box */
@@ -257,10 +259,24 @@ body {background-color: #e6ceac;}
   font-family: dogicapixel;
 }
 
-@media (max-height:767px){
+@media (max-height:856px){
+  .textbody{
+    width:90%;
+  }
+  .link-card{
+    height: 13vh;
+    width:100%;
+  }
+  .link-card:hover{
+    height: 13.5vh;
+    width: 100%;
+  }
   .textbody-desc{
     font-family: dogicapixel;
     font-size: 2vh;
+  }
+  .flex-container {
+    padding-top: 7rem;
   }
 }
 .textbody-desc{
