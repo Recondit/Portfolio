@@ -57,11 +57,11 @@ function App() {
   <ScrollPage page={0}>
     <Animator animation={FadeUp}>
           <h1>Hi, how are you? <a className = "emoji">👋</a></h1>
-          <a className = "hint">(Psstt.. Keep Scrolling)</a>
+          <a className = "hint">(Psstt.. site revamping currently in progress)</a>
     </Animator>
   </ScrollPage>
   
-  <ScrollPage page={1}>
+  {/* <ScrollPage page={1}>
     <Animator animation={FadeUp}>
           <div class = "Pg1">
           <h1>I'm <span class = "name">Divij</span></h1>
@@ -115,7 +115,7 @@ function App() {
 
  
     </Animator>
-  </ScrollPage>
+  </ScrollPage> */}
   
 </ScrollContainer >
 

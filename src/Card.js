@@ -13,24 +13,24 @@ const Card = (props) => {
     return ( 
 		
         <div class="link-card" style={divStyle}>
-	<a class = "test" href= {props.href} target="_blank" rel="noopener noreferrer">
-	
-	<div class="textbox-name">
-				<h2>
-					<div class="textbody-name">
-						{props.name}
-						
+	<a href={props.href} target="_blank" rel="noopener noreferrer">
+		
+		<div class="blue">
+			<div class="textbox">
+
+				<div class="textboxsub">
+					
+					<h2>
+						<div class="textbody">
+							{props.title}
+						</div>
+					</h2>
+					<div class="textbody">
+						<h4>{props.body}</h4>
 					</div>
-				</h2>
-	</div>
-	<div class="textbox-desc">
-				<h4>
-					<div class="textbody-desc">
-						{props.body}
-						
-					</div>
-				</h4>
-	</div>
+				</div>
+			</div>
+		</div>
 	</a>
 </div>
      );

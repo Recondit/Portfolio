@@ -197,23 +197,20 @@ body {background-color: #e6ceac;}
 
 
 .link-card:hover {
-  transition: 0.2s ease-in-out;
+  transition-delay: 3s;
+  transition: 0.3s ease-in-out;
 
-  background-size: 200%;
+  background-size: 125%;
   background-position: center;
 
-  width: 77rem;
-  height: 9rem;
+  width: 55vw;
 
   box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.4), 0 2px 4px -2px rgba(0, 0, 0, 1);
 }
 
 .textbox {
-  text-decoration:none;
-
   /* border: 1px green solid; */
   height: 100%;
-  transition: 0.2s ease-in-out;
 
   position: relative;
       display: flex;
@@ -221,99 +218,33 @@ body {background-color: #e6ceac;}
       align-items: center;
 }
 
-
-
-/* The Colour Fade Box Ontop */
+.textboxsub {
+  /* border: 1px green solid; */
+  width: 180%;
+}
 .link-card > a {
-  transition: 0.2s ease-in-out;
+  transition: 0.3s ease-in-out;
+  text-decoration: none;
   width: 100%;
   line-height: 1.4;
   padding: 1.3rem 1.3rem;
   border-radius: 0.5rem;
-  opacity: 1;
-  background-color: rgba(205, 186, 148, 0.716);
+  opacity: 0;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.616);
 
-  /* border: 1px white solid; */
+  border: 1px var(--primary-b) solid;
   /* border: 1px green solid; */
 }
-
 .link-card:hover > a {
-  transition: 0.2s ease-in-out;
-  background-color: rgba(205, 186, 148, 0.916);
-
-  /* border: 1px white solid; */
+  transition: 0.3s ease-in-out;
+  opacity: 1;
   /* border: 1px green solid; */
-}
-
-.test > .textbox-desc{
-  transition: 0.2s ease-in-out;
-  opacity: 0;
-  font-size: 0%;
-
-  /* background-color: black; */
-}
-
-.textbody-name{
-  color:black;
-  font-size: 1.5rem;
-  font-family: dogicapixel;
-}
-
-@media (max-height:856px){
-  .textbody{
-    width:90%;
-  }
-  .link-card{
-    height: 13vh;
-    width:100%;
-  }
-  .link-card:hover{
-    height: 13.5vh;
-    width: 100%;
-  }
-  .textbody-desc{
-    font-family: dogicapixel;
-    font-size: 2vh;
-  }
-  .flex-container {
-    padding-top: 7rem;
-  }
-}
-.textbody-desc{
-  font-family: dogicapixel;
-  /* color: #292418; */
-}
-
-.test > .textbox-name{
-  height: 100%;
-  text-decoration:none;
-  
-  position: relative;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-  transition: 0.2s ease-in-out;
-  opacity: 1;
-  font-size: 100%;
-}
-.test:hover > .textbox-name{
-  height: 25%;
-  transition: 0.2s ease-in-out;
-  opacity: 0;
-  font-size: 0%;
-
-}
-.test:hover > .textbox-desc{
-  transition: 0.2s ease-in-out;
-  opacity: 1;
-  font-size: 100%;
-  font-size: 1.1rem;
-  
 }
 
 .textbody {
   /* border: 1px green solid; */
-  width: 70rem;
+  width: 45vw
 }
 
 /* Text */
